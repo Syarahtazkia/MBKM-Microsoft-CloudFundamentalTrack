@@ -1,0 +1,7 @@
+$ sudo apt install docker.io
+$ sudo apt update
+$ docker ps
+
+$ curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-moodle/master/docker-compose.yml > docker-compose.yml
+$ apt install docker-compose
+$ docker-compose up -d
